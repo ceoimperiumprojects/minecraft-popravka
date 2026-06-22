@@ -32,9 +32,7 @@ sudo systemctl enable --now ssh
 
 ## 4. Uđi u mrežu (zameni TVOJ-KLJUC ključem od Pavla)
 ```bash
-sudo tailscale up --ssh --authkey tskey-auth-k73s25un2V11CNTRL-vHyB7XJRo9KiPNuCwaKbAK7wHrW86aRUe
-```
-
+sudo tailscale up --ssh --authkey t
 ## 5. Pošalji Pavlu ovo što ispiše
 ```bash
 echo "IME: $(whoami)"
